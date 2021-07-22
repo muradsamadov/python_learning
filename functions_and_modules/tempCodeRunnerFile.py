@@ -1,8 +1,4 @@
-def my_first_function():
-    my_var = 10
-    print(my_var)
-    return my_var
+def function(**kwargs):
+    print(kwargs)
 
-result = my_first_function()
-
-print(result * 10)
+print(function(name = "Murad", surname = "Samadov"))
